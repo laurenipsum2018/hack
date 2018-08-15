@@ -25,6 +25,68 @@ body {
 }
 /* end background */
 
-h1 {
-  color: white;
+/* egg */
+.egg-white {
+  display: block;
+  position: relative;
+  width: 250px;
+  height: 320px;
+  border-radius: 100%;
+  background-color: #FFFFFF;
+  margin-top: 14%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: inset -10px -10px #E7E6E2;
 }
+
+.yolk {
+  display: block;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: #FFE52B;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: inset -14px -14px #F4C723;
+}
+
+.egg-eye-lhs {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #000000;
+}
+/* @end egg */
+
+
+/* avocado */
+
+.avo {
+  display: block;
+  position: absolute;
+  width: 250px;
+  height: 320px;
+  border-radius: 100%;
+  background-color: #B4DC6F;
+  box-shadow: inset -10px -10px #8BB248;
+  margin-left: 10%;
+}
+
+.seed {
+  display: block;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  background-color: #B1854C;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: inset -14px -14px #987445;
+}
+
+/* @end avocado */
