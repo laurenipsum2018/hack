@@ -102,7 +102,8 @@ body {
   border-radius: 100%;
   background-color: #B4DC6F;
   box-shadow: inset -10px -10px #8BB248;
-  margin-left: 20%;
+  margin-left: 30%;
+  animation: shake2 2s ease infinite;
 }
 
 .seed {
@@ -170,5 +171,11 @@ body {
   0%{transform: rotate(20deg);}
   50%{transform: rotate(-20deg);}
   100%{transform: rotate(20deg);}
+}
+
+@keyframes shake2 {
+  0%{transform: rotate(-20deg);}
+  50%{transform: rotate(20deg);}
+  100%{transform: rotate(-20deg);}
 }
 /* @end resuable animations */
