@@ -46,7 +46,7 @@ body {
   height: 130px;
   border-radius: 100%;
   background-color: #FFE52B;
-  top: 100px;
+  top: 130px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: inset -14px -14px #F4C723;
@@ -55,13 +55,29 @@ body {
 .egg-eye-lhs {
   display: block;
   position: relative;
+  float: left;
   width: 30px;
   height: 30px;
   border-radius: 100%;
   background-color: #000000;
+  top: 70px;
+  margin-left: 27%;
+  animation: blink 3s ease infinite;
+}
+
+.egg-eye-rhs {
+  display: block;
+  position: relative;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #000000;
+  top: 70px;
+  margin-left: 20%;
+  animation: blink 3s ease infinite;
 }
 /* @end egg */
-
 
 /* avocado */
 
@@ -83,10 +99,19 @@ body {
   height: 130px;
   border-radius: 100%;
   background-color: #B1854C;
-  top: 100px;
+  top: 130px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: inset -14px -14px #987445;
 }
 
 /* @end avocado */
+
+/* blink animation */
+@keyframes blink{
+  0%{transform: scaleY(0.2);}
+  3%{transform: scaleY(1);}
+  6%{transform: scaleY(0.1);}
+  10%{transform: scaleY(1);}
+}
+/* @end blink animation */
