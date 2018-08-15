@@ -105,13 +105,44 @@ body {
   box-shadow: inset -14px -14px #987445;
 }
 
+.avo-eye-lhs {
+  display: block;
+  position: relative;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #000000;
+  margin-left: 27%;
+  top: 70px;
+  animation: blink 3s ease infinite;
+}
+
+.avo-eye-rhs {
+  display: block;
+  position: relative;
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #000000;
+  margin-left: 20%;
+  top: 70px;
+  animation: blink 3s ease infinite;
+}
+
+
 /* @end avocado */
 
-/* blink animation */
+/* reusable animations */
 @keyframes blink{
   0%{transform: scaleY(0.2);}
   3%{transform: scaleY(1);}
   6%{transform: scaleY(0.1);}
   10%{transform: scaleY(1);}
 }
-/* @end blink animation */
+
+@keyframes shake {
+
+}
+/* @end resuable animations */
