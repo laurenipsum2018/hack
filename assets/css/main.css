@@ -33,10 +33,9 @@ body {
   height: 320px;
   border-radius: 100%;
   background-color: #FFFFFF;
-  margin-top: 14%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 14% 0 0 50%;
   box-shadow: inset -10px -10px #E7E6E2;
+  animation: shake 2s ease infinite;
 }
 
 .yolk {
@@ -60,9 +59,9 @@ body {
   height: 30px;
   border-radius: 100%;
   background-color: #000000;
-  top: 70px;
-  margin-left: 27%;
-  animation: blink 3s ease infinite;
+  top: 60px;
+  margin-left: 28%;
+  animation: blink 3s infinite;
 }
 
 .egg-eye-rhs {
@@ -73,14 +72,28 @@ body {
   height: 30px;
   border-radius: 100%;
   background-color: #000000;
-  top: 70px;
+  top: 60px;
   margin-left: 20%;
   animation: blink 3s ease infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
 }
+
+.egg-smile {
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 16px;
+  border-radius: 15px 15px 70px 70px;
+  background-color: #000000;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* @end egg */
 
 /* avocado */
-
 .avo {
   display: block;
   position: absolute;
@@ -89,7 +102,7 @@ body {
   border-radius: 100%;
   background-color: #B4DC6F;
   box-shadow: inset -10px -10px #8BB248;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 
 .seed {
@@ -113,8 +126,8 @@ body {
   height: 30px;
   border-radius: 100%;
   background-color: #000000;
-  margin-left: 27%;
-  top: 70px;
+  margin-left: 28%;
+  top: 60px;
   animation: blink 3s ease infinite;
 }
 
@@ -127,11 +140,9 @@ body {
   border-radius: 100%;
   background-color: #000000;
   margin-left: 20%;
-  top: 70px;
+  top: 60px;
   animation: blink 3s ease infinite;
 }
-
-
 /* @end avocado */
 
 /* reusable animations */
@@ -143,6 +154,7 @@ body {
 }
 
 @keyframes shake {
-
+  from{transform: rotate(20deg);}
+  to{transform: rotate(-20deg);}
 }
 /* @end resuable animations */
