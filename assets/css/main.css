@@ -299,6 +299,38 @@ h1 {
 }
 /* @end tomato */
 
+/* test */
+
+.bacon-container {
+  display: block;
+  position: absolute;
+}
+
+.bacon {
+  display: block;
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  background-color: #FFB190;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  margin: 0px 0px 0px 10%;
+  animation: wave 2s infinite linear;
+}
+
+.bacon-2 {
+  display: block;
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  background-color: #FFB190;
+  transform-origin: 50% 48%;
+  border-radius: 43%;
+  margin: 140px 0px 0px 10%;
+  animation: wave 2s infinite linear;
+}
+/* @end test */
+
 /* reusable animations */
 @keyframes blink{
   0%{transform: scaleY(0.2);}
@@ -329,6 +361,11 @@ h1 {
   0%{transform: translate3d(0, 0px, 0);}
   50%{transform: translate3D(0, -50px, 0) rotate(3deg);}
   100%{transform: translate3d(0, 0px, 0);}
+}
+
+@keyframes wave {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
 }
 
 /* @end resuable animations */
