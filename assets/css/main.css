@@ -299,51 +299,6 @@ h1 {
 }
 /* @end tomato */
 
-/* test */
-
-.bacon-container {
-  display: block;
-  position: absolute;
-  margin: 0 0 0 5%;
-}
-
-.bacon {
-  display: block;
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background-color: #CFC4BF;
-  transform-origin: 50% 48%;
-  border-radius: 43%;
-  margin: 0px 0px 0px 10%;
-  animation: wave 3s infinite linear;
-}
-
-.bacon-2 {
-  display: block;
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background-color: #CFC4BF;
-  transform-origin: 50% 48%;
-  border-radius: 33%;
-  margin: 40px 0px 0px 10%;
-  animation: wave 3s infinite linear;
-}
-
-.bacon-3 {
-  display: block;
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background-color: #CFC4BF;
-  transform-origin: 50% 48%;
-  border-radius: 43%;
-  margin: 60px 0px 0px 10%;
-  animation: wave 3s infinite linear;
-}
-/* @end test */
-
 /* reusable animations */
 @keyframes blink{
   0%{transform: scaleY(0.2);}
