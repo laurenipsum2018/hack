@@ -304,14 +304,15 @@ h1 {
 .bacon-container {
   display: block;
   position: absolute;
+  margin: 0 0 0 5%;
 }
 
 .bacon {
   display: block;
   position: absolute;
-  width: 230px;
-  height: 230px;
-  background-color: #FFB190;
+  width: 150px;
+  height: 150px;
+  background-color: #CFC4BF;
   transform-origin: 50% 48%;
   border-radius: 43%;
   margin: 0px 0px 0px 10%;
@@ -321,12 +322,23 @@ h1 {
 .bacon-2 {
   display: block;
   position: absolute;
-  width: 230px;
-  height: 230px;
-  background-color: #FFB190;
+  width: 150px;
+  height: 150px;
+  background-color: #CFC4BF;
+  transform-origin: 50% 48%;
+  border-radius: 20%;
+  margin: 60px 0px 0px 10%;
+}
+
+.bacon-3 {
+  display: block;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #CFC4BF;
   transform-origin: 50% 48%;
   border-radius: 43%;
-  margin: 140px 0px 0px 10%;
+  margin: 120px 0px 0px 10%;
   animation: wave 2s infinite linear;
 }
 /* @end test */
